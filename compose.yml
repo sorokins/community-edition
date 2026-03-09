@@ -65,7 +65,6 @@ services:
       - ENABLE_EMAIL_VERIFICATION
       # web: https://github.com/plausible/community-edition/wiki/configuration#web
       - HTTP_PORT
-      - HTTPS_PORT
       # databases: https://github.com/plausible/community-edition/wiki/configuration#database
       - DATABASE_URL
       - CLICKHOUSE_DATABASE_URL
