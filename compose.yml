@@ -73,8 +73,6 @@ services:
       - GOOGLE_CLIENT_ID
       - GOOGLE_CLIENT_SECRET
       # geolocation: https://github.com/plausible/community-edition/wiki/configuration#ip-geolocation
-      - IP_GEOLOCATION_DB
-      - GEONAMES_SOURCE_FILE
       - MAXMIND_LICENSE_KEY
       - MAXMIND_EDITION
       # email: https://github.com/plausible/community-edition/wiki/configuration#email
